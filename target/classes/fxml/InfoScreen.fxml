@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.com.ae2dms.controller.InfoScreenController">
+   <children>
+      <TextArea editable="false" prefHeight="374.0" prefWidth="600.0" style="-fx-background-color: #8FBC8F;" text="Game Rule&#10;&#10;Keeper: &#10;             Blue  (controlled by ↑ ↓← →)&#10;             Red  (controlled by W S A D)&#10;&#10;Aim:&#10;Move the crate to the gold position by controlling keepers (you can choose to control one keeper &#10;or control two keepers to cooperate). &#10;&#10;Skill:&#10;1.&#9;Bomb: get rid of four objects surround the character with sound&#10;                   (situated at up, down, right, left) &#10;         Red character: By pressing F&#10;         Blue character: By pressing L&#10;&#10;          NOTICE: if the crate or diamond blows up, you can choose undo to back to previous step, &#10;                         reset level to back to the beginning of game or choose to exit the game&#10;&#10;2.&#9;Ice floor: save moves counts&#10;         Characters cannot stand on that kind of floor, if they meet ice floor, they will &#10;          Slide to the other side&#10;         Crate cannot go through it, it will be seemed like a wall&#10;&#10;3.&#9;Doors: transfer&#10;         If a keeper enters one door and will be transmitted out from another door&#10;         Crate cannot go through it, it will be seemed like a wall&#10;&#10;4.&#9;Save game&#10;         You can click the “save game” on menu bar “File” or shortcut “ctrl + S” &#10;         to save the current game to wherever you want&#10;&#10;5.&#9;Load game&#10;         You can click the “load game” on menu bar “File” or shortcut “ctrl + L”&#10;         to load a game you want&#10;&#10;6.&#9;Exit&#10;         You can click the “exit” on menu bar “File” or shortcut “ctrl + Q” to exit the game&#10;&#10;7.&#9;Undo&#10;         You can click the “undo” on menu bar “Level” or shortcut “ctrl + Z” to undo the operation&#10;&#10;8.&#9;Toggle music&#10;         You can click the “toggle music” on menu bar “Level” or shortcut “ctrl + M” &#10;         to stop or restart the music&#10;&#10;9.&#9;Toggle debug&#10;         You can click the “toggle debug” on menu bar “Level” or shortcut “ctrl + B” &#10;         to toggle debug&#10;&#10;10.&#9;Reset level&#10;         You can click the “reset level” on menu bar “Level” or shortcut “ctrl + shift + L” &#10;         to reset current level&#10;&#10;11.&#9;Show about&#10;         You can click the “show about” on menu bar “Level” view about simple control operations&#10;&#10;12.&#9;High Score&#10;         After each game level, you can see the number of steps taken the fewest five times &#10;         since you played the game or the Top1 if there are less than 5 playing times.&#10;&#10;13.&#9;Victory message&#10;         After you finish all game levels, you can see a victory message&#10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0" />
+      <AnchorPane prefHeight="27.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/bkeeperdown.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="73.0" layoutX="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/rkeeperdown.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="41.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue keeper" />
+            <Text layoutX="253.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Red keeper" />
+            <Button id="back" fx:id="back" layoutX="479.0" layoutY="2.0" mnemonicParsing="false" onAction="#backToStart" text="back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

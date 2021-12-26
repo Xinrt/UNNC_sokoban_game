@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startPan" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/startScreen.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.com.ae2dms.controller.StartScreenController">
+   <children>
+      <ImageView fitHeight="630.0" fitWidth="600.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../image/background.png" />
+         </image>
+      </ImageView>
+      <Button id="startGame" fx:id="startGame" layoutX="245.0" layoutY="396.0" mnemonicParsing="false" onAction="#startgame" prefHeight="45.0" prefWidth="110.0" text="Start" textFill="#290d0d">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Button>
+      <Button id="Information" fx:id="Information" layoutX="245.0" layoutY="470.0" mnemonicParsing="false" onAction="#Info" prefHeight="45.0" prefWidth="110.0" text="Info" />
+   </children>
+</AnchorPane>

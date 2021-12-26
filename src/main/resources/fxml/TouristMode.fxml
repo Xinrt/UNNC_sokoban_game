@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="bigPan" prefHeight="600.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.com.ae2dms.controller.TouristController">
+   <children>
+      <MenuBar centerShape="false" prefHeight="25.0" prefWidth="207.0">
+         <menus>
+            <Menu id="fileId" mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem id="saveGameId" fx:id="saveGameId" mnemonicParsing="false" onAction="#saveGame" text="Save game">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="C" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Load game">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="R" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#closeGame" text="Exit">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+               </items>
+            </Menu>
+            <Menu id="Level" fx:id="Level" mnemonicParsing="false" text="Level">
+               <items>
+                  <MenuItem id="undoId" fx:id="undoId" mnemonicParsing="false" onAction="#undo" text="Undo">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Z" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#toggleMusic" text="Toggle Music">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="M" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+                  <MenuItem id="toggleDebugId" fx:id="toggleDebugId" mnemonicParsing="false" onAction="#toggleDebug" text="Toggle Debug">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="B" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+                  <SeparatorMenuItem id="levelSeparatorId" fx:id="levelSeparatorId" mnemonicParsing="false" />
+                  <MenuItem id="resetLevelId" fx:id="resetLevelId" mnemonicParsing="false" onAction="#resetLevel" text="Reset Level">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="R" control="UP" meta="UP" shift="DOWN" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="About">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About This Game">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="I" control="UP" meta="UP" shift="UP" shortcut="DOWN" />
+                     </accelerator></MenuItem>
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <GridPane id="smallPan" fx:id="smallPan" layoutY="24.0" prefHeight="643.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+        <columnConstraints>
+          <ColumnConstraints fillWidth="false" hgrow="SOMETIMES" minWidth="30.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Label id="moveCountName" fx:id="moveCountName" layoutX="230.0" prefHeight="25.0" prefWidth="73.0" text="move count:" />
+      <Label id="moveCount" fx:id="moveCount" layoutX="310.0" prefHeight="25.0" prefWidth="40.0" text="0" />
+   </children>
+</AnchorPane>

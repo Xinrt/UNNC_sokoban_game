@@ -1,0 +1,132 @@
+MapSetName: Example Game!
+LevelName: Simple Start
+WWWWWWWWWWWWWWWWWWWW
+W    W             W 
+W C  W D           W
+w    w      WWWWWWWW 
+wM   WWWW  WWWWWWWWW 
+w            WWWWWWW 
+w    WWWWW   WWWWWWW 
+w    WWWWWWWWWWWWWWW 
+w    WWWWWWWWWWWWWWW 
+W  I WWWWWWWWWWWWWWW 
+w    WWWWWWWWWWWWWWW 
+w       M   WWWWWWWW 
+w H       WWWWWWWWWW 
+wWWWWWW   WWWWWWWWWW 
+wWWWWWW   WWWWWWWWWW 
+wWWWWWW   WWWWWWWWWW
+wWWWWWW   WWWWWWWWWW 
+wWWWWWW   WWWWWWWWWW 
+wWWWWWW   SWWWWWWWWW
+wwwwwwwwWwwwwwwwwwww
+
+LevelName: And Another Thing!
+WWWWWWWWWWWWWWWWWWWW
+W    W             W 
+W C  W C           W 
+w C  w      WW WWWWW 
+wD   WWWWWW W C   DW 
+w      D           W 
+w           W      W 
+w       H   WWWWWWWW 
+w       I   WWWWWWWW 
+w  M        WWWWWWWW 
+w           WWWWWWWW 
+w      S    WWWWWWWW 
+wW          WWWWWWWW 
+wWW       WWW  WWWWW 
+wWWW      W     WWWW 
+wWWWW     WD    WWWW 
+wWWWWW    WWWW WWWWW 
+wWWWWWW        M   W 
+wWWWWWWWWW         W 
+wwwwwwwwwwwwwwwwwwww
+
+LevelName: Here's another
+WWWWWWWWWWWWWWWWWWWW
+W    WWW  WWWWWWWWWW
+W              H   W
+W    WWWW WWWWWWWW W
+W   CC    WWWWWWWW W
+W   CDD            W
+WWWWWDWWWWWWWWWWWW W
+W           M      W
+W WWW W            W
+W W   W            W
+W    WW            W
+WW   WW            W
+WW   WW            W
+WW   WW            W
+WW   WW        M   W
+WW   WW            W
+WW WWWW         I  W
+W               SC W
+W   WWW           DW
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Penultimately...
+WWWWWWWWWWWWWWWWWWWW
+W  WWWD     I  H   W
+W  WWWWW WWWWWWWW WW
+W     DW W       C W
+WW WWWWW W   M   C W
+WW    DW W         W
+WW  W  W W WWWWWW WW
+WWW W WW           W
+WWW W WW W WWWWWWWWW
+W     WW WWWD      W
+W  W  WW WWW       W
+WW WWWWW WWW       W
+WW WWWWW WWWW WWWWWW
+WW       S     M   W
+WW  WWWW           W
+WWWWW  W  WWWWWWCCWW
+WWWWW             WW
+WWWWW W         C WW
+WD      WWWWWWWWWWWW
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: And finally :-)
+WWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWWWWW M W
+Wwwd   H   d      DW
+Wwwww wcwwwww ww  ww
+Wwwww  c wwww www wW
+W     w  wwww   w wW
+W wwwww wwwww w w wW
+W wwwww       w wcwW
+W wwwww wwwww w  c W
+Wd            w    W
+Wwwwwwwww www wwwwwW
+Wwdwwwwwwdwww s i  W
+W c       wwwwwwww W
+W cwwwwww wwwwww   W
+W  wwwwww www    wwW
+Ww wwwwww  ww wwwwdW
+W  w      cdw   M  W
+W          c       W
+Wwww  wwwww    wwwwW
+WWWWWWWWWWWWWWWWWWWW
+
+LevelName: Add a new Level ~
+WWWWWWWWWWWWWWWWWWWW      
+WWWwwW     WWWWWWWWW
+WWW   DWWW  MWWWWWWW
+WWW W W      WWWWWWW
+WWW W C CWD   WWWWWW
+WWW W     W   WWWWWW
+WWW DWC C W   WWWWWW
+WWW     W W   WWWWWW
+WWW  WWWD     S WWWW
+WWW       WW    WWWW
+WwWwwwwwwWWwWWWwwwWW
+WWWW  WWWWWWWWWWWWWW 
+WWWW       WWWWWWWWW      
+WWWWW  CWD     WWWWW     
+WWWWW C DDDW C WWWWW     
+WWWWWH CDW C   WWWWW      
+WWWWW   W       WWWW     
+WWWWWWWW M   I WWWWW
+WWWW               W
+WWWWWWWWWWWWWWWWWWWw

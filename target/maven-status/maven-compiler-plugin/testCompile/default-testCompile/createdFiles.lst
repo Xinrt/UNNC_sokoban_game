@@ -1,0 +1,8 @@
+main\com\ae2dms\util\GameEngineTest.class
+main\com\ae2dms\controller\InfoScreenControllerTest.class
+main\com\ae2dms\controller\TouristControllerTest.class
+main\com\ae2dms\util\GameLoggerTest.class
+main\com\ae2dms\util\GameObjectTest.class
+main\com\ae2dms\util\LevelTest.class
+main\com\ae2dms\util\MainTest.class
+main\com\ae2dms\util\GameGridTest.class

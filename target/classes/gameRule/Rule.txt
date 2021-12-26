@@ -1,0 +1,52 @@
+Character: Red
+		(controlled by W S A D)
+		 Blue
+		(controlled by ↑↓← →)
+
+Aim:
+Move the crate to the gold position by controlling keepers (you can choose to control one keeper or control two keepers to cooperate).
+
+Skill:
+1.	Bomb: get rid of four objects surround the character (situated at up, down, right, left)
+Red character: By pressing F
+Blue character: By pressing L
+
+NOTICE: if the crate or diamond blows up, you can choose undo to back to previous step, reset level to back to the beginning of game or choose to exit the game
+
+2.	Ice floor
+Characters cannot stand on that kind of floor, if they meet ice floor, they will Slide to the other side
+Crate cannot go through it, it will be seemed like a wall
+
+3.	Doors
+If a keeper enters one door and will be transmitted out from another door
+Crate cannot go through it, it will be seemed like a wall
+
+4.	Save game
+You can click the “save game” on menu bar “File” or shortcut “ctrl + S” to save the current game to wherever you want
+
+5.	Load game
+You can click the “load game” on menu bar “File” or shortcut “ctrl + L” to load a game you want
+
+6.	Exit
+You can click the “exit” on menu bar “File” or shortcut “ctrl + Q” to exit the game
+
+7.	Undo
+You can click the “undo” on menu bar “Level” or shortcut “ctrl + Z” to undo the operation
+
+8.	Toggle music
+You can click the “toggle music” on menu bar “Level” or shortcut “ctrl + M” to stop or restart the music
+
+9.	Toggle debug
+You can click the “toggle debug” on menu bar “Level” or shortcut “ctrl + B” to toggle debug
+
+10.	Reset level
+You can click the “reset level” on menu bar “Level” or shortcut “ctrl + shift + L” to reset current level
+
+11.	Show about
+You can click the “show about” on menu bar “Level” view about information
+
+12.	High Score
+After each game level, you can see the number of steps taken the fewest five times since you played the game
+
+13.	Victory message
+After you finish all game levels, you can see a victory message
